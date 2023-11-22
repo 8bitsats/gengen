@@ -1,39 +1,111 @@
-<!DOCTYPE html>
+
+<!doctype html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Custom Goose SVG Generator</title>
-    <link rel="stylesheet" href="styles.css">
+    <meta charset="utf-8" />
+    <link rel="icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="description" content="A generator for a low effort 10k PFP project using geese." />
+    <meta property="og:description" content="A generator for a low effort 10k PFP project using geese." />
+    <meta name="twitter:description" content="A generator for a low effort 10k PFP project using geese." />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta property="og:image" content="https://www.goosegenerator.com/image.png" />
+    <meta name="twitter:image" content="https://www.goosegenerator.com/image.png" />
+    <meta name="twitter:site" content="@dmitricherniak" />
+    <meta name="twitter:creator" content="@dmitricherniak" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Goose Generator by Dmitri Cherniak" />
+    <meta name="twitter:title" content="Goose Generator by Dmitri Cherniak" />
+    <meta name="twitter:domain" content="goosegenerator.com" />
+    <meta name="twitter:url" content="https://www.goosegenerator.com" />
+    <link rel="apple-touch-icon" href="logo192.png" />
+    <link rel="manifest" href="/manifest.json" />
+    <title>Goose Generator by Dmitri Cherniak</title>
+    <link href="/static/css/2.69507bff.chunk.css" rel="stylesheet">
+    <link href="/static/css/main.92d0e3e3.chunk.css" rel="stylesheet">
 </head>
-<body>
-    <header>
-        <h1>Custom Goose SVG Generator</h1>
-    </header>
-    <main>
-        <section id="svg-display">
-            <!-- Placeholder for the SVG goose -->
-            <!-- Example SVG structure -->
-            <svg width="200" height="200" id="goose-svg">
-              <!-- SVG elements with classes for styling -->
-              <rect class="goose-body" width="100%" height="100%" fill="#ffffff"/>
-              <polygon class="goose-beak" points="50,50 50,100 100,75" fill="#ffcc00"/>
-              <!-- Add more SVG elements as needed -->
-            </svg>
-        </section>
-        <aside id="control-panel">
-            <label for="bodyColor">Body Color:</label>
-            <input type="color" id="bodyColor" name="bodyColor" value="#ffffff">
-            
-            <label for="beakColor">Beak Color:</label>
-            <input type="color" id="beakColor" name="beakColor" value="#ffcc00">
-            
-            <button id="downloadBtn">Download SVG</button>
-        </aside>
-    </main>
-    <footer>
-        <p>Created by Your Name</p>
-    </footer>
-    <script src="script.js"></script>
+
+<body><noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <script>
+        ! function(a) {
+            function e(e) {
+                for (var r, t, n = e[0], o = e[1], u = e[2], i = 0, l = []; i < n.length; i++) t = n[i], Object.prototype.hasOwnProperty.call(p, t) && p[t] && l.push(p[t][0]), p[t] = 0;
+                for (r in o) Object.prototype.hasOwnProperty.call(o, r) && (a[r] = o[r]);
+                for (s && s(e); l.length;) l.shift()();
+                return c.push.apply(c, u || []), f()
+            }
+
+            function f() {
+                for (var e, r = 0; r < c.length; r++) {
+                    for (var t = c[r], n = !0, o = 1; o < t.length; o++) {
+                        var u = t[o];
+                        0 !== p[u] && (n = !1)
+                    }
+                    n && (c.splice(r--, 1), e = i(i.s = t[0]))
+                }
+                return e
+            }
+            var t = {},
+                p = {
+                    1: 0
+                },
+                c = [];
+
+            function i(e) {
+                if (t[e]) return t[e].exports;
+                var r = t[e] = {
+                    i: e,
+                    l: !1,
+                    exports: {}
+                };
+                return a[e].call(r.exports, r, r.exports, i), r.l = !0, r.exports
+            }
+            i.m = a, i.c = t, i.d = function(e, r, t) {
+                i.o(e, r) || Object.defineProperty(e, r, {
+                    enumerable: !0,
+                    get: t
+                })
+            }, i.r = function(e) {
+                "undefined" != typeof Symbol && Symbol.toStringTag && Object.defineProperty(e, Symbol.toStringTag, {
+                    value: "Module"
+                }), Object.defineProperty(e, "__esModule", {
+                    value: !0
+                })
+            }, i.t = function(r, e) {
+                if (1 & e && (r = i(r)), 8 & e) return r;
+                if (4 & e && "object" == typeof r && r && r.__esModule) return r;
+                var t = Object.create(null);
+                if (i.r(t), Object.defineProperty(t, "default", {
+                        enumerable: !0,
+                        value: r
+                    }), 2 & e && "string" != typeof r)
+                    for (var n in r) i.d(t, n, function(e) {
+                        return r[e]
+                    }.bind(null, n));
+                return t
+            }, i.n = function(e) {
+                var r = e && e.__esModule ? function() {
+                    return e.default
+                } : function() {
+                    return e
+                };
+                return i.d(r, "a", r), r
+            }, i.o = function(e, r) {
+                return Object.prototype.hasOwnProperty.call(e, r)
+            }, i.p = "/";
+            var r = this.webpackJsonpaside = this.webpackJsonpaside || [],
+                n = r.push.bind(r);
+            r.push = e, r = r.slice();
+            for (var o = 0; o < r.length; o++) e(r[o]);
+            var s = n;
+            f()
+        }([])
+    </script>
+    <script src="/static/js/2.b05c6a52.chunk.js"></script>
+    <script src="/static/js/main.9ec6d840.chunk.js"></script>
 </body>
+
 </html>
